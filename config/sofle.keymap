@@ -29,21 +29,21 @@
     };
 
     macros {
-        new_macro: new_macro {
+        first_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(C)>;
             label = "NEW_MACRO";
         };
 
-        new_macro: new_macro {
+        two_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(X)>;
             label = "NEW_MACRO";
         };
 
-        new_macro: new_macro {
+        three_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(V)>;
